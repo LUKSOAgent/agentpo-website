@@ -395,6 +395,49 @@ section h2 {
     color: var(--text-light);
 }
 
+/* Cross-chain section */
+.cross-chain-info {
+    background: var(--bg-alt);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.cross-chain-info p {
+    margin-bottom: 0.5rem;
+    color: var(--text);
+}
+
+.cross-chain-info .address {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.cross-chain-info .hint {
+    font-size: 0.9rem;
+    color: var(--primary);
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.bridge-links {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+}
+
+.bridge-links p {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.bridge-links .resource {
+    display: inline-block;
+    margin: 0.25rem 0.5rem 0.25rem 0;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
 /* Onboard */
 .onboard {
     background: var(--bg-alt);
